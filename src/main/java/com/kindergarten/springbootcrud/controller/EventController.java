@@ -48,7 +48,7 @@ public class EventController {
     public List<Event> findAllEventsBetween(@PathVariable String date1,@PathVariable String date2) throws ParseException {
         return service.findEventsBetween(date1, date2);
     }
-    @GetMapping("/kindergartenevents/{id}")
+    @GetMapping("/kindergartNbenevents/{id}")
     public int getNbrEvents(@PathVariable String id){
         return service.nbrEventsByKindergarten(id);
     }
