@@ -30,6 +30,5 @@ public class Event {
     private String activity;
     private String description;
     private String kindergartenId;
-    private String adresse;
 
 }
